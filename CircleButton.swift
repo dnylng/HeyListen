@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 class CircleButton: UIButton {
 
-    @IBInspectable var cornerRadius: CGFloat = 30.0 {
+    @IBInspectable var cornerRadius: CGFloat = 20.0 {
         didSet {
             setupView()
         }
